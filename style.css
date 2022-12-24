@@ -85,18 +85,17 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    height: 5rem;
+    height: 6rem;
 }
 
 .logo-text {
     font-family: 'Rubik Vinyl', cursive;
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 
 #logo {
-    max-height: 90%;
-
+    max-height: 95%;
 }
 
 .bottom-left-container {
@@ -112,7 +111,7 @@ body {
 
 .bottom-left-text {
     color: #A8BEC1;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .bottom-left-rights {
@@ -121,6 +120,7 @@ body {
 }
 
 .right-side-container {
+    width: 65%;
     border: 1px solid pink;
 }
 
