@@ -124,26 +124,26 @@ body {
 .right-side-container {
     position: relative;
     width: 65vw;
-    font-size: 1.4rem;;
+    font-size: 1.4rem;
 }
 
 .right-top-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 2rem;
-    height: 13rem;
-    padding: 4rem 30rem 0 3rem;
+    padding: 8rem 20rem 2rem 3rem;
     background-color: var(--right-side-bground);
+    font-weight: 500;
 }
 
 .right-middle-container {
+    padding-bottom: 2rem;
     border: 1px solid red;
 }
 
 .form-title {
     padding: 1rem 0 0 3rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .data-container {
@@ -161,6 +161,7 @@ body {
 
 .label {
     padding-bottom: 0.2rem;
+    font-weight: 500;
 }
 
 .input {
