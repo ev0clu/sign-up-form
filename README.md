@@ -10,4 +10,4 @@ In this project, a sign-up form has built for an imaginary service.
 - Form validation
 
 ### Layout
-![layout picture](https://github.com/ev0clu/calculator/blob/main/layout.png?raw=true)
+![layout picture](https://github.com/ev0clu/sign-up-form/blob/main/layout.png?raw=true)
