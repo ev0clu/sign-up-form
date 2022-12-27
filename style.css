@@ -55,7 +55,7 @@ table {
 
 
 :root {
-    --right-side-bground: rgb(241, 241, 241);
+    --right-side-bground: rgb(249, 249, 249);
 }
 
 body {
@@ -131,8 +131,40 @@ body {
     justify-content: center;
     gap: 2rem;
     height: 13rem;
-    padding: 5rem 30rem 0 3rem;
+    padding: 4rem 30rem 0 3rem;
     background-color: var(--right-side-bground);
+}
+
+.right-middle-container {
+    border: 1px solid red;
+}
+
+.form-title {
+    padding: 1rem 0 0 3rem;
+    font-weight: 300;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    padding: 1.3rem 0 0 3rem;
+}
+
+.label {
+    padding-bottom: 0.2rem;
+}
+
+.input {
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid grey;
 }
 
 .footer {
