@@ -168,15 +168,26 @@ body {
     font-weight: 500;
 }
 
-.input {
-    font-size: 1.3rem;
+input {
+    font-size: 0.9rem;
     border-radius: 0.3rem;
     border: 0.1rem solid #E5E7EB;
+    height: 1.5rem;
+    width: 18rem;
 }
 
 input:focus {
     outline-color: #458dfa;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.warning-input {
+    border: 0.1rem solid #C23838;
+}
+
+.warning-msg {
+    margin-top: 0.5rem;
+    color: #C23838;
 }
 
 .right-bottom-container {
@@ -195,12 +206,21 @@ button {
     border: 0.15rem solid var(--log-in-color);
     background-color: var(--submit-color-darker);
     color: white;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s all;
 }
 
 button:hover {
     background-color: var(--submit-color-lighter);
     transition: 0.2s;
     cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.97);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .log-container {
@@ -217,7 +237,7 @@ button:hover {
 .log {
     font-weight: 700;
     text-decoration: none;
-    color: var(--log-in-color);
+    color: var(--submit-color-darker);
 }
 
 .log:hover {

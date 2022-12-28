@@ -44,31 +44,32 @@
                     <div class="data-container">
                         <div class="data">
                             <label class="label" for="first_name">FIRST NAME</label>
-                            <input class="input" type="text" id="first_name" name="first_name" required>
+                            <input type="text" id="first_name" name="first_name" required>
                         </div>
                         <div class="data">
                             <label class="label" for="last_name">LAST NAME</label>
-                            <input class="input" type="text" id="last_name" name="last_name" required>
+                            <input type="text" id="last_name" name="last_name" required>
                         </div>
                     </div>
                     <div class="data-container">
                         <div class="data">
                             <label class="label" for="user_email">EMAIL ADDRESS</label>
-                            <input class="input" type="email" id="user_email" name="email" placeholder="you@example.com" required>
+                            <input type="email" id="user_email" name="email" placeholder="yourname@example.com" required>
                         </div>
                         <div class="data">
                             <label class="label" for="phone_number">PHONE NUMBER</label>
-                            <input class="input" type="tel" id="phone_number" name="phone_number" required>
+                            <input type="tel" id="phone_number" name="phone_number" placeholder="e.g 123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
                         </div>
                     </div>
                     <div class="data-container">
                         <div class="data">
                             <label class="label" for="user_password">PASSWORD</label>
-                            <input class="input" type="password" id="user_password" name="password" required>
+                            <input type="password" id="user_password" name="password" required>
+                            <span class="warning-msg"></span>
                         </div>
                         <div class="data">
                             <label class="label" for="confirm_password">CONFIRM PASSWORD</label>
-                            <input class="input" type="password" id="confirm_password" name="confirm_password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
                         </div>
                     </div>
                     <div class="btn">
